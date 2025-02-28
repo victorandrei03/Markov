@@ -15,7 +15,7 @@ Since Mihai is not yet familiar with advanced search algorithms (as they are tau
 
 ## A Visual Explanation
 
-![Example Maze](maze_example.png)
+![image](https://github.com/user-attachments/assets/dbf2b624-30d1-4cd4-8b9d-4481a2cb2222)
 
 Let's consider the simple maze above, represented as a square matrix, where the robot's starting position is the top-left corner. We assume the starting point has coordinates (1,1). The robot will move at each step to a new cell it has not previously visited, being able to move one square up, down, left, or right, but it is not allowed to move diagonally.
 
