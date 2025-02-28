@@ -32,7 +32,7 @@ Inside the maze, there can also be walls that prevent the robot from passing bet
 
 To model this situation, we will use **probability chains**, known as **Markov Chains**. Markov Chains are widely used in probability theory, with applications in fields such as economics, reliability of dynamic systems, and artificial intelligence algorithms. Google PageRank is also a modified form of a Markov Chain.
 
-![Markov Chain Illustration](markov_chain.png)
+![image](https://github.com/user-attachments/assets/9ad90c39-85d7-45d6-bf5a-4b9dff59a8ac)
 
 The basic data structure of a Markov Chain is a directed graph, where nodes represent states, and each edge represents a nonzero probability of transitioning from an initial state to a final state. For any given state, the sum of all transition probabilities must equal one:
 
@@ -40,7 +40,7 @@ The basic data structure of a Markov Chain is a directed graph, where nodes repr
 
 We can apply a similar idea to our problem. Each cell in the maze will be associated with a state, numbered from the top-left corner as shown below:
 
-![Numbered Maze](numbered_maze.png)
+![image](https://github.com/user-attachments/assets/f95ee4f6-6c94-4ee3-a5e0-1c6ce2f52a44)
 
 Besides the states corresponding to the robot's position in the maze cells, we will also need two additional states:
 
@@ -49,7 +49,7 @@ Besides the states corresponding to the robot's position in the maze cells, we w
 
 With these states added to our directed graph, we obtain the following Markov Chain:
 
-![Markov Chain Representation](markov_graph.png)
+![image](https://github.com/user-attachments/assets/3fcd4b1e-c00f-48e3-bf17-a1ab51d36a60)
 
 ## Adjacency and Transition Matrices
 
@@ -75,7 +75,7 @@ The algorithm follows these steps:
 
 Here is an example of an optimal path found using this heuristic:
 
-![Heuristic Path](heuristic_path.png)
+![image](https://github.com/user-attachments/assets/022aa0f2-daf7-40ce-84f2-9ddc38b665c6)
 
 ## Labyrinth Encoding
 
@@ -90,7 +90,7 @@ Each cell in the maze is encoded as a 4-bit number representing walls in differe
 
 Example representation:
 
-![Wall Encoding](wall_encoding.png)
+![image](https://github.com/user-attachments/assets/4ee3df77-e88e-4e2b-8140-231dcc054c9a)
 
 ## Implementation Requirements
 
