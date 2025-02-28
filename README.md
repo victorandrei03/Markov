@@ -108,5 +108,3 @@ All matrices should be stored in **sparse format** for efficiency.
 
 ---
 
-This document provides the full problem statement with all images properly included. Let me know if anything needs adjustments!
-
